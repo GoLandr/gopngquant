@@ -12,7 +12,7 @@ go get -u github.com/manhtai/gopngquant/cmd/pngquant
 pngquant -i input.png -o output.png
 ```
 
-## batch rename
+## batch png files conversion
 
 ```sh
 for f in *.png ; do pngquant -i "$f" -o "${f%.*}_.png" ; done
